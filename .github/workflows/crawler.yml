@@ -82,7 +82,7 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           
-          echo "🔄 Syncing with remote (branch: $BRANCH_NAME)..."
+          echo "🔄 Syncing with remote (branch: $BRANCH_NAME)... "
           git fetch origin $BRANCH_NAME
           
           # 保存当前更改
